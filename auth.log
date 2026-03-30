@@ -1,0 +1,25 @@
+Mar 8 10:00:01 cloud-server sshd[1234]: Failed password for invalid user admin from 192.168.1.100 port 54321 ssh2
+Mar 8 10:01:12 cloud-server sshd[1235]: Failed password for root from 10.0.0.5 port 44444 ssh2
+Mar 8 10:02:33 cloud-server sshd[1236]: Failed password for invalid user guest from 185.220.101.45 port 22222 ssh2
+Mar 8 10:03:18 cloud-server sshd[1237]: Failed password for root from 45.33.32.156 port 33333 ssh2
+Mar 8 10:04:55 cloud-server sshd[1238]: Failed password for invalid user test from 91.189.91.157 port 55555 ssh2
+Mar 8 10:05:21 cloud-server sshd[1239]: Failed password for admin from 103.21.244.1 port 66666 ssh2
+Mar 8 10:06:42 cloud-server sshd[1240]: Failed password for root from 172.217.3.110 port 44444 ssh2
+Mar 8 10:07:13 cloud-server sshd[1241]: Failed password for invalid user oracle from 203.0.113.45 port 33333 ssh2
+Mar 8 10:08:30 cloud-server sshd[1242]: Accepted password for ubuntu from 192.168.1.10 port 55555 ssh2
+Mar 8 10:09:45 cloud-server sshd[1243]: Accepted publickey for ubuntu from 192.168.1.50 port 55555 ssh2
+Mar 8 10:10:55 cloud-server sudo: ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/bin/bash
+Mar 8 10:11:34 cloud-server sudo: ubuntu : TTY=pts/1 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/apt update
+Mar 8 10:12:11 cloud-server sudo: ubuntu : TTY=pts/2 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/systemctl restart nginx
+Mar 8 10:13:50 cloud-server kernel: [1234.5678] UFW BLOCK IN=eth0 OUT= SRC=10.0.0.5 DST=198.51.100.22 LEN=60 TTL=64 PROTO=TCP SPT=4444 DPT=80
+Mar 8 10:14:22 cloud-server kernel: [2345.6789] UFW BLOCK IN=eth0 OUT= SRC=203.0.113.45 DST=198.51.100.22 LEN=60 TTL=64 PROTO=TCP SPT=5555 DPT=443
+Mar 8 10:15:40 cloud-server kernel: [3456.7890] UFW BLOCK IN=eth0 OUT= SRC=198.51.100.23 DST=203.0.113.10 LEN=60 TTL=64 PROTO=TCP SPT=6666 DPT=80
+Mar 8 10:16:02 cloud-server sshd[1244]: Failed password for invalid user mysql from 45.77.65.211 port 44444 ssh2
+Mar 8 10:17:11 cloud-server sshd[1245]: Failed password for root from 167.99.12.34 port 33333 ssh2
+Mar 8 10:18:29 cloud-server sshd[1246]: Failed password for invalid user ftp from 104.131.23.87 port 55555 ssh2
+Mar 8 10:19:43 cloud-server sshd[1247]: Failed password for root from 159.89.98.17 port 22222 ssh2
+Mar 8 10:20:30 cloud-server sshd[1248]: Failed password for invalid user postgres from 206.189.23.45 port 44444 ssh2
+Mar 8 10:21:41 cloud-server sshd[1249]: Accepted password for ubuntu from 192.168.1.15 port 55555 ssh2
+Mar 8 10:22:55 cloud-server kernel: [4567.8901] UFW BLOCK IN=eth0 OUT= SRC=185.220.101.45 DST=198.51.100.50 LEN=60 TTL=64 PROTO=TCP SPT=7777 DPT=8080
+Mar 8 10:23:33 cloud-server sshd[1250]: Failed password for invalid user test from 91.189.91.157 port 33333 ssh2
+Mar 8 10:24:59 cloud-server sshd[1251]: Failed password for admin from 103.21.244.1 port 22222 ssh2
